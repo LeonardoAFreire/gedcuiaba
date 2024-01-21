@@ -11591,3 +11591,10 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+@media (max-width: 550px) {
+  .signup-section,
+  .masthead {
+    background-attachment: scroll;
+  }
+}
