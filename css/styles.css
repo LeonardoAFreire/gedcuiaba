@@ -11439,9 +11439,9 @@ body {
   font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
   line-height: 2.5rem;
-  letter-spacing: 0.8rem;
+  letter-spacing: 0.4rem;
   background: linear-gradient(
     rgba(255, 255, 255, 0.9),
     rgba(255, 255, 255, 0.8)
@@ -11469,8 +11469,8 @@ body {
   }
   .masthead h1,
   .masthead .h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
+    /* font-size: 6.5rem; */
+    /* line-height: 6.5rem; */
     letter-spacing: 0.8rem;
   }
   .masthead h2,
@@ -11597,4 +11597,14 @@ body {
   .masthead {
     background-attachment: scroll;
   }
+}
+
+.container-logo {
+  display: flex;
+  gap: 4px;
+  font-size: 0.875rem;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: #0d6efd;
 }
